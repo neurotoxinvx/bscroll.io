@@ -1,5 +1,5 @@
 ---
-title: Install
+title: Install 安装
 date: 4
 ---
 

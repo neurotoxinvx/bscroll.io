@@ -6,13 +6,13 @@
 title: BetterScroll
 subtitle:
 description:
-author: Neurotoxin
+author: ustbhuangyi
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://neurotoxin.github.io/better-scroll
+url: https://ustbhuangyi.github.io/better-scroll
 root: /better-scroll
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -62,7 +62,7 @@ pagination_dir: page
 
 # Social
 social:
-  github: neurotoxinvx
+  github: ustbhuangyi
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -73,5 +73,5 @@ theme: huno
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: http://github.com/neurotoxinvx/better-scroll.git
+  repository: http://github.com/ustbhuangyi/better-scroll.git
   branch: gh-pages

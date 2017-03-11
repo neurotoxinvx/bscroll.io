@@ -7,13 +7,21 @@ $(document).ready(function() {
     $('.content-wrapper').addClass('animated slideInLeft');
   });
 
-  if (window.location.hash && window.location.hash == "#blog") {
+  if (window.location.hash && window.location.hash == "#documents") {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
   // if (window.location.pathname != "/") {       // if hexo in subdir of site, should change this line
   //   $('.panel-cover').addClass('panel-cover--collapsed');
   // }
+  
+  $('a').on('click', function(){
+    var hash = $(this)[0].hash
+    console.log(hash)
+    if (hash && hash == "#documents") {
+      $('.panel-cover').addClass('panel-cover--collapsed');
+    }
+  })
 
   $('.btn-mobile-menu').click(function() {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown');

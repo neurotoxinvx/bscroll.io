@@ -1,5 +1,5 @@
 ---
-title: Trigger
+title: Trigger 派发事件
 date: 1
 ---
 
