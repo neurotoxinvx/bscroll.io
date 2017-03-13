@@ -17,10 +17,10 @@ npm install
 
 hexo server
 
-// 如果提示说 hexo server 命令不存在，请执行
+如果提示说 hexo server 命令不存在，请执行
 npm install hexo-server --save
 
-// 如果报错提示 ./build 下的一个文件缺失，请执行
+如果报错提示 ./build 下的一个文件缺失，请执行
 npm install hexo-cli -g
 ```
 
