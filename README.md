@@ -9,9 +9,9 @@
 ```bash
 git clone [your bscroll.io repo]
 
-git clone git://github.com/neurotoxinvx/huno.git themes/huno
-
 cd bscroll.io
+
+git clone git://github.com/neurotoxinvx/huno.git themes/huno
 
 npm install
 
