@@ -73,5 +73,5 @@ theme: huno
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: http://github.com/ustbhuangyi/better-scroll.git
-  branch: gh-pages
+  repository: http://github.com/wn7067509/better-scroll.git
+  branch: master
